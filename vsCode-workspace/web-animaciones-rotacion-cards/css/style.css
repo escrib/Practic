@@ -1,0 +1,53 @@
+*,*::before,*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px;
+
+}
+
+body {
+  overflow: auto;
+}
+
+header {
+  display: flex;
+  background-color: #f99;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+header nav ul {
+  display: flex;
+  font-size: 3rem;
+  margin: 20px;
+}
+
+section {
+  padding: 50px 0;
+  height: 700px;
+  width: 50%;
+  margin: 50px auto;
+  position: relative;
+  background-color: blueviolet;
+  transition: 1s all;
+}
+
+.transfo {
+  transform:scale(0.7);
+}
+
+.transla {
+  transform: translateY(-600px);
+}
+
+.hidden {
+  display: none;
+}

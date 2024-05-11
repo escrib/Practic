@@ -1,0 +1,12 @@
+model/Especialidad.class
+view/Main.class
+model/Servicio.class
+controller/PersonaController.class
+repository/IncidenteRepository.class
+repository/PersonaRepository.class
+state/Estado.class
+model/Incidente.class
+controller/IncidenteController.class
+model/Tecnico.class
+model/Cliente.class
+model/Persona.class
